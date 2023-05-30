@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Bài TH</title>
+</head>
+
+<body>
+  <script>
+    //sv1
+    var studentID1 = prompt("Nhập MSV 1");
+    var studentName1 = prompt("Nhập tên SV");
+    var age1 = +prompt("Nhập tuổi SV");
+    var htmMark1 = +prompt("Nhập điểm HTML");
+    var cssMark1 = +prompt("Nhập điểm CSS");
+    var jsMark1 = +prompt("Nhập điểm JS");
+    var avegMark1 = (htmMark1 + cssMark1 + jsMark1) / 3;
+    var Rank1;
+    if (avegMark1 < 5) {
+      Rank1 = "Yếu"
+    }
+    else if (avegMark1 < 7) {
+      Rank1 = "Trung Bình"
+    } else if (avegMark1 < 8) {
+      Rank1 = "Khá"
+    } else if (avegMark1 < 9) {
+      Rank1 = "Giỏi"
+    } else {
+      Rank1 = "Xuất sắc"
+    };
+
+    //sv2
+    var studentID2 = prompt("Nhập MSV 2");
+    var studentName2 = prompt("Nhập tên SV");
+    var age2 = +prompt("Nhập tuổi SV");
+    var htmMark2 = +prompt("Nhập điểm HTML");
+    var cssMark2 = +prompt("Nhập điểm CSS");
+    var jsMark2 = +prompt("Nhập điểm JS");
+    var avegMark2 = (htmMark2 + cssMark2 + jsMark2) / 3;
+    var Rank2;
+    if (avegMark2 < 5) {
+      Rank2 = "Yếu"
+    }
+    else if (avegMark2 < 7) {
+      Rank2 = "Trung Bình"
+    } else if (avegMark2 < 8) {
+      Rank2 = "Khá"
+    } else if (avegMark2 < 9) {
+      Rank2 = "Giỏi"
+    } else {
+      Rank2 = "Xuất sắc"
+    };
+
+    //sv3
+    var studentID3 = prompt("Nhập MSV 3");
+    var studentName3 = prompt("Nhập tên SV");
+    var age3 = +prompt("Nhập tuổi SV");
+    var htmMark3 = +prompt("Nhập điểm HTML");
+    var cssMark3 = +prompt("Nhập điểm CSS");
+    var jsMark3 = +prompt("Nhập điểm JS");
+    var avegMark3 = (htmMark3 + cssMark3 + jsMark3) / 3;
+    var Rank3;
+    if (avegMark3 < 5) {
+      Rank3 = "Yếu"
+    }
+    else if (avegMark3 < 7) {
+      Rank3 = "Trung Bình"
+    } else if (avegMark3 < 8) {
+      Rank3 = "Khá"
+    } else if (avegMark3 < 9) {
+      Rank3 = "Giỏi"
+    } else {
+      Rank3 = "Xuất sắc"
+    };
+
+    //sv4
+    var studentID4 = prompt("Nhập MSV 4");
+    var studentName4 = prompt("Nhập tên SV");
+    var age4 = +prompt("Nhập tuổi SV");
+    var htmMark4 = +prompt("Nhập điểm HTML");
+    var cssMark4 = +prompt("Nhập điểm CSS");
+    var jsMark4 = +prompt("Nhập điểm JS");
+    var avegMark4 = (htmMark4 + cssMark4 + jsMark4) / 3;
+    var Rank4;
+    if (avegMark4 < 5) {
+      Rank4 = "Yếu"
+    }
+    else if (avegMark4 < 7) {
+      Rank4 = "Trung Bình"
+    } else if (avegMark4 < 8) {
+      Rank4 = "Khá"
+    } else if (avegMark4 < 9) {
+      Rank4 = "Giỏi"
+    } else {
+      Rank4 = "Xuất sắc"
+    };
+
+    //sv5
+    var studentID5 = prompt("Nhập MSV 5");
+    var studentName5 = prompt("Nhập tên SV");
+    var age5 = +prompt("Nhập tuổi SV");
+    var htmMark5 = +prompt("Nhập điểm HTML");
+    var cssMark5 = +prompt("Nhập điểm CSS");
+    var jsMark5 = +prompt("Nhập điểm JS");
+    var avegMark5 = (htmMark5 + cssMark5 + jsMark5) / 3;
+    var Rank5;
+    if (avegMark5 < 5) {
+      Rank5 = "Yếu"
+    }
+    else if (avegMark5 < 7) {
+      Rank5 = "Trung Bình"
+    } else if (avegMark5 < 8) {
+      Rank5 = "Khá"
+    } else if (avegMark5 < 9) {
+      Rank5 = "Giỏi"
+    } else {
+      Rank5 = "Xuất sắc"
+    }
+
+    // var tongHop = [
+    //   [studentID1, studentName1, age1, avegMark1, Rank1],
+    //   [studentID2, studentName2, age2, avegMark2, Rank2],
+    //   [studentID3, studentName3, age3, avegMark3, Rank3],
+    //   [studentID4, studentName4, age4, avegMark4, Rank4],
+    //   [studentID5, studentName5, age5, avegMark5, Rank5],
+    // ];
+    // document.write(tongHop[1] + "<br>" + tongHop[2] + "<br>" + tongHop[3] + "<br>" + tongHop[4] + "<br>" + tongHop[5] + "<br>");
+
+    var diem = [avegMark1, avegMark2, avegMark3, avegMark4, avegMark5];
+    var sapXep = diem.sort();
+    var a1, b1, c1, d1 = sapXep[0], e1;
+    var a2, b2, c2, d2 = sapXep[1], e2;
+    var a3, b3, c3, d3 = sapXep[2], e3;
+    var a4, b4, c4, d4 = sapXep[3], e4;
+    var a5, b5, c5, d5 = sapXep[4], e5;
+
+
+    if (sapXep[0] == avegMark1) {
+      a1 = studentID1;
+      b1 = studentName1;
+      c1 = age1;
+      e1 = Rank1;
+    } else if (sapXep[0] == avegMark2) {
+      a1 = studentID2;
+      b1 = studentName2;
+      c1 = age2;
+      e1 = Rank2;
+    } else if (sapXep[0] == avegMark3) {
+      a1 = studentID3;
+      b1 = studentName3;
+      c1 = age3;
+      e1 = Rank3;
+    } else if (sapXep[0] == avegMark4) {
+      a1 = studentID4;
+      b1 = studentName4;
+      c1 = age4;
+      e1 = Rank4;
+    } else {
+      a1 = studentID5;
+      b1 = studentName5;
+      c1 = age5;
+      e1 = Rank5;
+    }
+
+    if (sapXep[1] == avegMark1) {
+      a2 = studentID1;
+      b2 = studentName1;
+      c2 = age1;
+      e2 = Rank1;
+    } else if (sapXep[1] == avegMark2) {
+      a2 = studentID2;
+      b2 = studentName2;
+      c2 = age2;
+      e2 = Rank2;
+    } else if (sapXep[1] == avegMark3) {
+      a2 = studentID3;
+      b2 = studentName3;
+      c2 = age3;
+      e2 = Rank3;
+    } else if (sapXep[1] == avegMark4) {
+      a2 = studentID4;
+      b2 = studentName4;
+      c2 = age4;
+      e2 = Rank4;
+    } else {
+      a2 = studentID5;
+      b2 = studentName5;
+      c2 = age5;
+      e2 = Rank5;
+    }
+    if (sapXep[2] == avegMark1) {
+      a3 = studentID1;
+      b3 = studentName1;
+      c3 = age1;
+      e3 = Rank1;
+    } else if (sapXep[2] == avegMark2) {
+      a3 = studentID2;
+      b3 = studentName2;
+      c3 = age2;
+      e3 = Rank2;
+    } else if (sapXep[2] == avegMark3) {
+      a3 = studentID3;
+      b3 = studentName3;
+      c3 = age3;
+      e3 = Rank3;
+    } else if (sapXep[2] == avegMark4) {
+      a3 = studentID4;
+      b3 = studentName4;
+      c3 = age4;
+      e3 = Rank4;
+    } else {
+      a3 = studentID5;
+      b3 = studentName5;
+      c3 = age5;
+      e3 = Rank5;
+    }
+
+    if (sapXep[3] == avegMark1) {
+      a4 = studentID1;
+      b4 = studentName1;
+      c4 = age1;
+      e4 = Rank1;
+    } else if (sapXep[3] == avegMark2) {
+      a4 = studentID2;
+      b4 = studentName2;
+      c4 = age2;
+      e4 = Rank2;
+    } else if (sapXep[3] == avegMark3) {
+      a4 = studentID3;
+      b4 = studentName3;
+      c4 = age3;
+      e4 = Rank3;
+    } else if (sapXep[3] == avegMark4) {
+      a4 = studentID4;
+      b4 = studentName4;
+      c4 = age4;
+      e4 = Rank4;
+    } else {
+      a4 = studentID5;
+      b4 = studentName5;
+      c4 = age5;
+      e4 = Rank5;
+    }
+
+    if (sapXep[4] == avegMark1) {
+      a5 = studentID1;
+      b5 = studentName1;
+      c5 = age1;
+      e5 = Rank1;
+    } else if (sapXep[4] == avegMark2) {
+      a5 = studentID2;
+      b5 = studentName2;
+      c5 = age2;
+      e5 = Rank2;
+    } else if (sapXep[4] == avegMark3) {
+      a5 = studentID3;
+      b5 = studentName3;
+      c5 = age3;
+      e5 = Rank3;
+    } else if (sapXep[4] == avegMark4) {
+      a5 = studentID4;
+      b5 = studentName4;
+      c5 = age4;
+      e5 = Rank4;
+    } else {
+      a5 = studentID5;
+      b5 = studentName5;
+      c5 = age5;
+      e5 = Rank5;
+    }
+
+    var tongHop = [
+      [a1, b1, c1, d1, e1],
+      [a2, b2, c2, d2, e2],
+      [a3, b3, c3, d3, e3],
+      [a4, b4, c4, d4, e4],
+      [a5, b5, c5, d5, e5],
+    ];
+    document.write(tongHop[1] + "<br>" + tongHop[2] + "<br>" + tongHop[3] + "<br>" + tongHop[4] + "<br>" + tongHop[5]);
+
+
+
+  </script>
+</body>
+
+</html>
